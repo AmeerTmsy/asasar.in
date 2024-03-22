@@ -386,6 +386,14 @@ input:valid + .labeling{
     transform: translate(-15px, -15px) scale(0.88);
     z-index: 1111;
 }
+#fmail:not(:placeholder-shown) + .labeling,
+#fmail:focus + .labeling{
+    color: black;
+    height: 30px;
+    line-height: 30px;
+    transform: translate(-15px, -15px) scale(0.88);
+    z-index: 1111;
+}
 
 .footsec1{
     color: white;
