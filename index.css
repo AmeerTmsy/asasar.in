@@ -377,20 +377,14 @@ input:valid{
 }
 
 input:focus + .labeling,
-input:valid + .labeling{
-    color: black;
-    height: 30px;
-    line-height: 30px;
-    /* border-right: 1px solid black; */
-    /* border-left: 1px solid black; */
-    transform: translate(-15px, -15px) scale(0.88);
-    z-index: 1111;
-}
+input:valid + .labeling,
 #fmail:not(:placeholder-shown) + .labeling,
 #fmail:focus + .labeling{
     color: black;
     height: 30px;
     line-height: 30px;
+    /* border-right: 1px solid black; */
+    /* border-left: 1px solid black; */
     transform: translate(-15px, -15px) scale(0.88);
     z-index: 1111;
 }
